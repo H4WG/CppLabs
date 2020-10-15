@@ -1,33 +1,27 @@
-// Лабораторна робота #4, Завдання #2. Варіант #15.
+// Лабораторна робота №4. Варіант #15. Завдання #2.
 
 #include <iostream>
 #include <math.h>
 
 using namespace std;
 
-double F(double x)
-{
-	return ((sin(x))/(log10(x + 3))) + sqrt(2*x+1)+4;
-}
-
 int main()
 {
-	int xA = 20, xB = 20;
+	float a, S = 0, D = 1;
 
-	cout << "\nWHILE" << endl;
+	cout << "\nВведіть значення A: ";
+	cin >> a;
 
-	while(xA <= 30)
+	cout << "\nЦикл\tСумма\t\tДобуток\n" << endl;
+
+	for(int i = 1; i <= 4; i++)
 	{
-		cout << "  Y = " << xA << "; Y = " << F(xA) << endl;
-		xA++;
+		S += pow(a,i)+2*i;
+		D *= i+a*pow(i,2);
+		cout << i << "\t" << S << "\t\t" << D <<  endl;
 	}
 
-	cout << "\nDO WHILE\n";
-
-	do{
-		cout << "  Y = " << xB << "; Y = " << F(xB) << endl;
-		xB++;
-	} while(xB <= 30);
+	cout << endl;
 
 	return 0;
 }
