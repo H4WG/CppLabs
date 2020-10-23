@@ -24,6 +24,7 @@ int main()
 
 	for(int i = 0; i <= 19; i++) {
 
+		// Обнуляємо значення для корретних пошуків середнього значення.
 		Sum_Positive_Values = 0;
 		Count_Positive_Values = 0;
 
