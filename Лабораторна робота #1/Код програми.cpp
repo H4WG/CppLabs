@@ -1,4 +1,4 @@
-// Лабораторна робота #1
+// Лабораторна робота #1.
 
 #include <iostream>
 #include <string>

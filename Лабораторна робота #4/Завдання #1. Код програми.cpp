@@ -1,4 +1,4 @@
-// Лабораторна робота #4. Варіант #15. Завдання #1.
+// Лабораторна робота #4. Завдання #1. Варіант #15.
 
 #include <iostream>
 #include <math.h>
@@ -24,7 +24,7 @@ int main()
 
 	cout << "\nDO WHILE\n";
 
-	do{
+	do {
 		cout << "  Y = " << xB << "; Y = " << F(xB) << endl;
 		xB++;
 	} while(xB <= 30);

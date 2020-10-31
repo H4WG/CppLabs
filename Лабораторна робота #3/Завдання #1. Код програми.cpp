@@ -13,9 +13,9 @@ int main()
 	cin >> x;
 
 	if(x <= y){
-		cout << "A = " << C * pow(x,2) + D * y << endl << endl;
+		cout << "A = " << C * pow(x,2) + D * y << "\n\n";
 	} else {
-		cout << "A = " << sqrt(x * y) + D * log(y) << endl << endl;
+		cout << "A = " << sqrt(x * y) + D * log(y) << "\n\n";
 	}
 
 	return 0;
