@@ -1,0 +1,3 @@
+OS/2        DB2        130   22  3343
+Windows/NT  SQLServer  230   24  2685
+SCO/Unix    Oracle     110   48  3745
