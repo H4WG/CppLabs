@@ -45,7 +45,7 @@ class Person
         // Флормула для визначення ширини:
         // (length / 2) - max
         void dataPrint(int i) {
-            cout << i + 1 << string(2,' ');
+            cout << i + 1        << string(2,' ');
             cout << LastName[i]  << string(12 - (LastName[i].length() / 2),' ');
             cout << FirstName[i] << string(10 - (FirstName[i].length()  / 2),' ');
             cout << Surname[i]   << string(14 - (Surname[i].length() / 2),' ');

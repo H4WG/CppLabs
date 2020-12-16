@@ -15,10 +15,10 @@ int main()
 
 	string text;
 
-        cout << setw(9) << "ОС";
+        cout << setw(9)  << "ОС";
 	cout << setw(16) << "СУБД";
-	cout << setw(7) << "ROM";
-	cout << setw(5) << "RAM";
+	cout << setw(7)  << "ROM";
+	cout << setw(5)  << "RAM";
         cout << setw(12) << "Ціна\n\n";
 
         while (getline(data, text)) {
