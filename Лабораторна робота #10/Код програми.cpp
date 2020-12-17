@@ -51,6 +51,8 @@ void show()
         cout << SI[i].RAM  << string(3,' ');
         cout << SI[i].Cost << endl;
     }
+
+    cout << endl;
 }
 
 int main()
